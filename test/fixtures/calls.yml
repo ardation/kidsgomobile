@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number_id: 1
+  date: 2013-06-19 15:11:40
+  type: 1
+  duration: 1
+
+two:
+  number_id: 1
+  date: 2013-06-19 15:11:40
+  type: 1
+  duration: 1

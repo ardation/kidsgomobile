@@ -229,8 +229,12 @@ GEM
       rack
       raindrops (~> 0.7)
     uuidtools (2.1.4)
+    versionist (1.0.0)
+      rails (~> 3.0)
+      yard (~> 0.7)
     warden (1.2.1)
       rack (>= 1.0)
+    yard (0.8.6.1)
 
 PLATFORMS
   ruby
@@ -274,3 +278,4 @@ DEPENDENCIES
   tabletastic
   uglifier (>= 1.0.3)
   unicorn
+  versionist

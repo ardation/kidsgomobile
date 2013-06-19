@@ -12,6 +12,15 @@ Kgmapp::Application.routes.draw do
     end
   end
 
+  namespace :api do
+    api_version(module: 'V1', header: {name: 'API-VERSION', value: 'v1'}, parameter: {name: "version", value: 'v1'}, path: {value: 'v1'}) do
+      resources :messages
+      resources :contacts
+      resources :calls
+      resources :apps
+    end
+  end
+
   root :to => "site#index", :defaults => { :format => "html" }
 
   match "terms" => "site#terms"

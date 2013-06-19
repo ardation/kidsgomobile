@@ -66,6 +66,7 @@ gem "jquery-fileupload-rails"
 # api
 gem 'rabl-rails'
 gem 'inherited_resources'
+gem 'versionist'
 
 # monitoring
 gem 'newrelic_rpm'

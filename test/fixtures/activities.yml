@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  app_id: 1
+  start_time: 2013-06-19 15:14:25
+  end_time: 2013-06-19 15:14:25
+
+two:
+  app_id: 1
+  start_time: 2013-06-19 15:14:25
+  end_time: 2013-06-19 15:14:25

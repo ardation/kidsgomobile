@@ -34,4 +34,13 @@ class User < ActiveRecord::Base
     "#{self.fname} #{self.lname}"
   end
 
+  def get_device_token
+    self.device_token = loop do
+      random_token = Random.new.rand(100_000..1_000_000-1)
+      break random_token unless User.where(device_token: random_token).exists?
+    end
+    self.save
+    return self.device_token
+  end
+
 end
