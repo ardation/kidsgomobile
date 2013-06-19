@@ -11,6 +11,7 @@ Kgmapp::Application.routes.draw do
       end
     end
   end
+
   root :to => "site#index", :defaults => { :format => "html" }
 
   match "terms" => "site#terms"

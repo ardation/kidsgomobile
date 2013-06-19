@@ -8,6 +8,7 @@ gem 'pg'
 
 group :development do
   gem "rails-erd"
+  gem 'rails-footnotes'
 end
 
 group :production do
