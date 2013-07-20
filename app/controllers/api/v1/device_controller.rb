@@ -1,3 +1,3 @@
-class Api::V1::MessagesController < ActionController::Base
+class Api::V1::DeviceController < ActionController::Base
 
 end
